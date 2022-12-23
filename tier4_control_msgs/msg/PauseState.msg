@@ -1,0 +1,4 @@
+uint8 DRIVE=0
+uint8 NOMINAL_PAUSE=1
+uint8 URGENT_PAUSE=2
+uint8 state

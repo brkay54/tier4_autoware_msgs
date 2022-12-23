@@ -19,7 +19,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ExternalCommandSelectorMode.msg"
   "srv/ExternalCommandSelect.srv"
   "msg/IsStartRequested.msg"
-  "msg/IsPaused.msg"
+  "msg/PauseState.msg"
+  "msg/PauseStateStamped.msg"
+  "msg/SetPauseType.msg"
   "srv/SetPause.srv"
   DEPENDENCIES
     autoware_common_msgs
